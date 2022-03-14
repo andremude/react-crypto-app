@@ -1,0 +1,140 @@
+.coin-container {
+  display: flex;
+  justify-content: center;
+}
+
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #d7d7d7;
+  background-color: transparent;
+}
+
+.coin-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.coin h1 {
+  font-size: 20px;
+  width: 150px;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.coin img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.coin-symbol {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 20px;
+  width: 50px;
+}
+
+.coin-price {
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  text-align: left;
+  width: 110px;
+}
+.coin-volume {
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  text-align: left;
+  white-space: nowrap;
+  width: 155px;
+}
+
+.coin-data {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price-change {
+  width: 90px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.red {
+  color: #f80808;
+}
+
+.green {
+  color: #0ae90a;
+}
+
+.coin button {
+  margin-left: 20px;
+  height: 30px;
+  width: 100px;
+  padding: 0px 10px 0px 10px;
+  background-color: #fa8908;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.coin button:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
+}
+
+@media (max-width: 820px) {
+.coin h1 {
+  display: none;
+}
+
+.coin img {
+  display: none;
+}
+
+.coin-symbol {
+  font-size: 20px;
+  text-align: left;
+  width: 50px;
+}
+
+.coin-price {
+  font-size: 20px;
+  text-align: left;
+  width: 110px;
+}
+.coin-volume {
+  display: none;
+}
+
+.price-change {
+  width: 90px;
+  font-size: 20px;
+  text-align: right;
+}
+}
