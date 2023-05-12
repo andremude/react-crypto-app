@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Crypto App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup
+
+Clone project: `git@github.com:andremude/react-crypto-app.git`
+
+run `npm install`
+
+## Dependencies 
+<ul>
+  <li>"react": "^17.0.2"</li>
+  <li>"react-dom": "^17.0.2"</li>
+  <li>"react-router-dom": "^6.2.2"</li>
+  <li>"react-scripts": "5.0.0"</li>
+  <li>"axios": "^0.26.1"</li>
+</ul>    
 
 ## Available Scripts
 
